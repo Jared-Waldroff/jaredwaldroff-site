@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jared Waldroff - DJ</title>
+    <meta name="description" content="Professional DJ services by Jared Waldroff. Available for events, parties, and bookings.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="name">Jared Waldroff</h1>
+            <p class="tagline">Professional DJ</p>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="images/jared-photo.jpg" alt="Jared Waldroff" class="profile-photo">
+                </div>
+                <div class="hero-text">
+                    <h2>Bringing Energy to Every Event</h2>
+                    <p>Professional DJ services for weddings, corporate events, parties, and special occasions. With years of experience and a passion for music, I create unforgettable experiences that keep the dance floor moving.</p>
+                    <a href="#contact" class="cta-button">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section class="music" id="music">
+        <div class="container">
+            <h2 class="section-title">Listen to My Sets</h2>
+            
+            <!-- Spotify Section -->
+            <div class="music-platform">
+                <h3>Latest Tracks on Spotify</h3>
+                <div class="embed-container">
+                    <!-- Replace with your Spotify embed code -->
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- SoundCloud Section -->
+            <div class="music-platform">
+                <h3>SoundCloud Mixes</h3>
+                <div class="embed-container">
+                    <!-- Replace with your SoundCloud embed code -->
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1234567890&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+            </div>
+
+            <!-- Mixcloud Section -->
+            <div class="music-platform">
+                <h3>Mixcloud Sets</h3>
+                <div class="embed-container">
+                    <!-- Replace with your Mixcloud embed code -->
+                    <iframe width="100%" height="300" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fyourusername%2Fyourset%2F" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Wedding Receptions</h3>
+                    <p>Creating the perfect soundtrack for your special day, from ceremony to last dance.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Corporate Events</h3>
+                    <p>Professional entertainment for conferences, product launches, and company parties.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Private Parties</h3>
+                    <p>Customized playlists and energy for birthdays, anniversaries, and celebrations.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Club Nights</h3>
+                    <p>High-energy sets designed to keep the dance floor packed all night long.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Book Your Event</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to make your event unforgettable? Let's discuss your vision and create the perfect musical experience.</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> <a href="mailto:booking@jaredwaldroff.com">booking@jaredwaldroff.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-date">Event Date</label>
+                        <input type="date" id="event-date" name="event-date">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-type">Event Type</label>
+                        <select id="event-type" name="event-type">
+                            <option value="">Select event type</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="corporate">Corporate Event</option>
+                            <option value="private-party">Private Party</option>
+                            <option value="club-night">Club Night</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell me about your event, venue, and any specific requirements..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jared Waldroff. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
