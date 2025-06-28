@@ -210,6 +210,23 @@ section {
     border-radius: var(--border-radius);
 }
 
+/* Individual Mixcloud Sets */
+.mixcloud-set {
+    margin-bottom: 2rem;
+}
+
+.mixcloud-set h4 {
+    color: var(--text-color);
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.mixcloud-set:last-child {
+    margin-bottom: 0;
+}
+
 /* Services Section */
 .services {
     background-color: var(--background-alt);
